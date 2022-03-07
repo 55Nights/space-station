@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  list-style: none;
+  font-family: "Barlow Condensed", sans-serif;
+}
+body {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  position: relative;
+  background-size: cover;
+}
+nav {
+    position: absolute;
+width: 1385px;
+height: 96px;
+left: 55px;
+top: 40px;
+
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  left: 55px;
+  top: 64px;
+}
+ul {
+    position: relative;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+  display: flex;
+  border:  2px solid green;
+}
+li {
+  margin: 1rem;
+  font-family: Barlow Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 2.7px;
+
+color: #FFFFFF;
+
+}
+strong{
+    margin-right: 10px;
+}
+.header {
+  border: 2px solid red;
+  position: absolute;
+  width: 450px;
+  height: 382px;
+  left: 165px;
+  top: 387px;
+}
+p.intro {
+  position: absolute;
+  height: 34px;
+  left: 0.11%;
+  right: 15.67%;
+  top: calc(50% - 34px / 2 - 174px);
+
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  /* identical to box height */
+
+  letter-spacing: 4.725px;
+
+  color: #d0d6f9;
+}
+h2 {
+    position: absolute;
+    height: 172px;
+    left: 0%;
+    right: 1.11%;
+    top: calc(50% - 172px/2 - 47px);
+    
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 172px;
+    /* identical to box height */
+    
+    
+    color: white;
+    
+}
+p.body {
+  position: absolute;
+  height: 128px;
+  left: 0.11%;
+  right: 1.22%;
+  top: calc(50% - 128px / 2 + 127px);
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  color: #d0d6f9;
+}
+.button {
+  position: relative;
+  width: 274px;
+  height: 274px;
+  left: 1001px;
+  top: 495px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  text-align: center;
+  
+}
+h4 {
+    position: absolute;
+    height: 37px;
+    left: 22.63%;
+    right: 23.36%;
+    top: calc(50% - 37px/2 + 0.5px);
+    
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    letter-spacing: 2px;
+    
+    color: #0B0D17;
+    
+    
+    
+}
